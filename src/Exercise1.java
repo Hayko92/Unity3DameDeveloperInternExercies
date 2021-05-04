@@ -8,7 +8,7 @@ public class Exercise1 {
         test.add("aaa");
         test.add("read");
         test.add("stop");
-       // test.add("stop");
+        // test.add("stop");
         test.add("aaa");
         test.add("table");
         test.add("pots");
