@@ -1,6 +1,6 @@
 public class Problem3 {
     public static void main(String[] args) {
-        System.out.println(minMoves(4, 4, 2, 2, 7, 1));
+        System.out.println(minMoves(1 ,3 ,1 ,5, 6, 8 ));
     }
     static int minMoves (int x1, int y1, int x2, int y2, int x3, int y3) {
 
@@ -41,8 +41,6 @@ public class Problem3 {
                 steps--;
             }
         }
-
-
 
  return steps;
     }
