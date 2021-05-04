@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Exercise2 {
+public class Problem2 {
     public static void main(String[] args) {
         int[] numbers = new int[]{2, 3, 5, 7, 4, 3, 10, 13, 12};
         System.out.println(smallestPrime(numbers));
@@ -25,7 +25,10 @@ public class Exercise2 {
             if (conterOfDividers <= 2) {
                 boolean contains = false;
                 for (int x : numbers) {
-                    if (x == i) contains = true;
+                    if (x == i) {
+                        contains = true;
+                        break;
+                    }
                 }
                 if (!contains) return i;
             }

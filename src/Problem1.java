@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exercise1 {
+public class Problem1 {
     public static void main(String[] args) {
         List<String> test = new ArrayList<>();
         test.add("top");
